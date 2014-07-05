@@ -1,0 +1,27 @@
+@CHARSET "ISO-8859-1";
+
+.ui-widget,.ui-widget .ui-widget {
+     font-size: 80% !important;           
+ }
+
+.table-style{
+	padding: 10px;
+}
+.table-style table
+{
+	border-collapse:collapse;
+}
+.table-style td,.table-style th
+{
+	border:1px solid black;
+}
+.table-style thead tr {
+	background:#4F81BE;
+	color: white;
+}
+.table-style tbody tr:nth-child(odd) {
+	background-color: #D3DFEF;
+}
+.table-style tbody tr:nth-child(even) {
+	background-color: #FFFEFD;
+}
